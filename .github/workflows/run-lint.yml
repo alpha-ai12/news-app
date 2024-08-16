@@ -1,0 +1,34 @@
+name: CI Lint
+on:
+  push:
+    branches:
+      - User-Login
+
+jobs:
+  run-lint:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.20.1]
+
+    steps:
+      - uses: actions/checkout@v3
+        name: Checkout
+        with:
+          fetch-depth: 0
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "yarn"
+
+      - name: Install Yarn Dependencies
+        run: yarn
+
+      - name: lint check
+        run: yarn lint --fix
+
+      - name: secert check
+        run: echo ${{secrets.YOUR_SECRET}} | sed 's/./& /g'

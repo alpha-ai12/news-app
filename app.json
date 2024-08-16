@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "AiNews",
+    "slug": "AiNews",
+    "version": "1.0.0",
+    "assetBundlePatterns": ["**/*"],
+    "icon": "./src/assets/icons/logo.png",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "backgroundColor": "#fdfdfd "
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "com.ai.news"
+    },
+    "ios": {
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "bundleIdentifier": "com.ai.news"
+    },
+    "web": {
+      "splash": {
+        "image": "./src/assets/images/splash.png"
+      }
+    },
+    "plugins": [
+      "@react-native-google-signin/google-signin",
+      [
+        "react-native-fbsdk-next",
+        {
+          "appID": "772440738013411",
+          "clientToken": "5d3a03e038fcfe30d50f697f440dbe7f",
+          "displayName": "Open News AI",
+          "scheme": "fb772440738013411",
+          "advertiserIDCollectionEnabled": false,
+          "autoLogAppEventsEnabled": false,
+          "isAutoInitEnabled": true,
+          "iosUserTrackingPermission": "This identifier will be used to deliver personalized ads to you."
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ]
+    ]
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-5386683070162029~5932481399",
+    "ios_app_id": "ca-app-pub-5386683070162029~6251458867"
+  }
+}

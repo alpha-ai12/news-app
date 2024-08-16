@@ -1,0 +1,8 @@
+<resources>
+  <string name="app_name">AiNews</string>
+  <string name="expo_splash_screen_resize_mode" translatable="false">contain</string>
+  <string name="expo_splash_screen_status_bar_translucent" translatable="false">false</string>
+  <string name="facebook_client_token">5d3a03e038fcfe30d50f697f440dbe7f</string>
+  <string name="fb_login_protocol_scheme">fb772440738013411</string>
+  <string name="facebook_app_id">772440738013411</string>
+</resources>

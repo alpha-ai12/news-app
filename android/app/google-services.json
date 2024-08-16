@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "550399240107",
+    "project_id": "unified-parser-394705",
+    "storage_bucket": "unified-parser-394705.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550399240107:android:8f2974ce6a0091f1b354ee",
+        "android_client_info": {
+          "package_name": "com.ai.news"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550399240107-675323vb63hg3ua8fl8qmmjnu73c0i88.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ai.news",
+            "certificate_hash": "2efb4314c9424f7ca3e21b4a4764a8018754b96e"
+          }
+        },
+        {
+          "client_id": "550399240107-f53cqk45af5ipsj55vbtfjcs7dj19i6u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ai.news",
+            "certificate_hash": "b69c17f4886e371e471bb3a5459d73ba5e6568ec"
+          }
+        },
+        {
+          "client_id": "550399240107-jd0pvuhd9qaef7totgaoqd4tjj14738f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ai.news",
+            "certificate_hash": "e5c2e6ef6511ad3f8ab2bac176efe4ff4cc7c130"
+          }
+        },
+        {
+          "client_id": "550399240107-14poie18ujuj097mq1ee72uv6js4vn2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTM8pp1Pf2f66-H_yYmbgzv_AcXZqUYM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550399240107-14poie18ujuj097mq1ee72uv6js4vn2c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "550399240107-u2u6bcts6evc5pf1bs40hrb8pj0k832t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ai.news"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
