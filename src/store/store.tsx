@@ -10,7 +10,7 @@ import Code from "../screens/Board/partials/country/code.json";
 export const STORE_FEATURE_KEY = "store";
 export const storeAdapter = createEntityAdapter();
 const API_URL =
-  "https://news-backend-7zo8rz1h1-codeninjas-projects.vercel.app/news";
+  "https://news-backend-eosin.vercel.app/news";
 export const getCountryNameFromId = (id: string) => {
   let name = "";
   Code.forEach((i) => {
